@@ -1,0 +1,10 @@
+00000001	2:22:26	[4356] In MQL: before functionA call: a[0]=0, c[0]=0	
+00000002	2:22:26	[4356] functionA start: out_a = 0	
+00000003	2:22:26	[4356] functionA end: out_a = 50	
+00000004	2:22:26	[4356] In MQL: before functionB call: a[0]=50, c[0]=0	
+00000005	2:22:26	[4356] functionB start: in_a = 50	
+00000006	2:22:26	[4356] functionB end: in_a = 50, a = 50	
+00000007	2:22:26	[4356] In MQL: before functionC call: a[0]=50, c[0]=0	
+00000008	2:22:26	[4356] functionC start: out_c = 0	
+00000009	2:22:26	[4356] functionC end: out_c = 10	
+00000010	2:22:26	[4356] In MQL: after all calls: a[0]=50, c[0]=10	
